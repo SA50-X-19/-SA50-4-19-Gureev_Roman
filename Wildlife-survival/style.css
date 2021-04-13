@@ -89,7 +89,7 @@ body {
 
 
     .searching:hover {
-      transform:scale(2,2);
+        transform: scale(2,2);
     }
 
 .nav {
@@ -132,9 +132,9 @@ nav__items {
 
 
 
-.nav__link:hover {
-    transform: scale(2,2);
-}
+    .nav__link:hover {
+        transform: scale(2,2);
+    }
 
 
 
