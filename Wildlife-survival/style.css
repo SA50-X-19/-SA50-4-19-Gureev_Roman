@@ -171,3 +171,73 @@ nav__items {
 
 
 
+.survival {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 80px;
+    max-width: 275px;
+    width: 100%;
+    height: 340px;
+}
+
+
+
+.survival__h1 {
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    color: #CD6326;
+}
+
+
+
+.text {
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFF
+}
+
+.money {
+    display: flex;
+    align-items: center;
+    border: 2px solid #CD6326;
+    background: #CD6326;
+    border-radius: 5px;
+    width: 160px;
+    height: 60px;
+}
+
+
+
+    .money:hover {
+        background: #E39128;
+    }
+
+    .money:pressed {
+        background: #8F5613;
+    }
+
+.donate__link {
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-decoration: none;
+    color: #F7F7F7;
+    margin: auto;
+}
+
+.ilovegachi {
+    max-width: 1200px;
+    width: 100%;
+}
